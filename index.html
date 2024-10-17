@@ -1,11 +1,144 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Training</title>
+    <link rel="shrotcut icon" href="./images/favicon.ico">
+    <link rel="icon" href="./images/favicon.svg" type="image/svg+xml">
+    <link rel="stylesheet" href="./styles/main.css">
+    <link rel="stylesheet" href="./styles/normalize.min.css">
 </head>
+
 <body>
-    
+    <header class="header">
+        <div class="container">
+            <div class="header-wrapper">
+                <div class="logo"></div>
+                <button class="burger-menu" onclick=""></button>
+                <nav class="nav">
+                    <a href="#" class="nav-link">Мероприятия</a>
+                    <a href="#" class="nav-link">Расписание</a>
+                    <a href="#" class="nav-link">О компании</a>
+                </nav>
+                <a href="mailto:info@freefit.com.ru&body=Не отправляйте письмо?subject=Это тестовый сайт"
+                    class="email">info@freefit.com<span class="email-round"></span></a>
+            </div>
+        </div>
+    </header>
+    <section class="hero">
+        <div class="container">
+            <div class="hero-wrapper">
+                <div class="hero-text">
+                    <h1 class="hero-title">Онлайн тренировки<br>любой сложности</h1>
+                    <h2 class="hero-subtitle"><span>&gt;&nbsp;15</span> <span>тренировок</span></h2>
+                    <div class="hero-description">
+                        <p>в области спортивной<br>физиологии и нутрициологии</p>
+                        <button type="button" class="hero-btn btn">Узнать подробнее</button>
+                    </div>
+                </div>
+                <div class="hero-bg"></div>
+                <img src="./images/@2x/hero.png" alt="" class="hero-img">
+            </div>
+        </div>
+    </section>
+    <section class="timetable">
+        <div class="container">
+            <div class="timetable-wrapper">
+                <div class="timetable-title">
+                    <h3>Расписание<br>тренировок</h3>
+                    <span>22 - 28 июня</span>
+                </div>
+                <div class="timetable-grid">
+                    <a href="#" class="timetable-item"><span class="timetable-subitem">22 июня, 10:00</span><img
+                            src="./icons/table_1.svg" alt="" class="timetable-img"><span
+                            class="timetable-name">Функциональный тренинг</span></a>
+                    <a href="#" class="timetable-item"><span class="timetable-subitem">24 июня, 10:00</span><img
+                            src="./icons/table_2.svg" alt="" class="timetable-img"><span class="timetable-name">Body
+                            sculpt</span></a>
+                    <a href="#" class="timetable-item"><span class="timetable-subitem">26 июня, 11:00</span><img
+                            src="./icons/table_3.svg" alt="" class="timetable-img"><span
+                            class="timetable-name">L.A.B.</span></a>
+                    <a href="#" class="timetable-item"><span class="timetable-subitem">23 июня, 10:00</span><img
+                            src="./icons/table_4.svg" alt="" class="timetable-img"><span class="timetable-name">Силовой
+                            микс</span></a>
+                    <a href="#" class="timetable-item"><span class="timetable-subitem">25 июня, 11:00</span><img
+                            src="./icons/table_5.svg" alt="" class="timetable-img"><span
+                            class="timetable-name">Дыхательные практики</span></a>
+                    <a href="#" class="timetable-item"><span class="timetable-subitem">27 июня, 10:00</span><img
+                            src="./icons/table_6.svg" alt="" class="timetable-img"><span
+                            class="timetable-name">Комплексная разминка</span></a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="submit">
+        <div class="container">
+            <div class="submit-wrapper">
+                <h3 class="submit-label"><span class="submit-label-round"></span>Подпишитесь на рассылку</h3>
+                <form action="" class="form">
+                    <div class="form-wrapper">
+                        <input type="email" placeholder="Ваш e-mail" class="form-email">
+                        <div class="agreement">
+                            <input type="checkbox" id="01" class="checkbox">
+                            <label class="checkbox-label" for="01">Согласен(на) с обработкой <a href="#"
+                                    target="_blank">персональных
+                                    данных</a></label>
+                        </div>
+                    </div>
+                    <button type="submit" class="submit-btn btn">Подписаться</button>
+                </form>
+            </div>
+        </div>
+    </section>
+    <main class="about">
+        <div class="container">
+            <div class="about-wrapper">
+                <div class="about-top">
+                    <div class="about-text">
+                        <h3 class="about-label">О компании</h3>
+                        <p class="about-description">Наша компания является одной из немногих, кто предлагает фитнес
+                            услуги
+                            онлайн!
+                            Оставайтесь с нами и вы сами увидите, что мы проводим не только онлайн-тренировки.</p>
+                        <button type="button" class="about-btn btn">Записаться</button>
+                    </div>
+                    <img src="./images/@2x/trainer.png" alt="" class="about-img">
+                </div>
+                <div class="about-bottom">
+                    <p class="bottom-item"><span class="bottom-label">Экономия времени</span>Не нужно тратить время на
+                        дорогу</p>
+                    <p class="bottom-item"><span class="bottom-label">Индивидуальный подход</span>Внимание тренера
+                        пренадлежит только вам</p>
+                    <p class="bottom-item"><span class="bottom-label">Экономия денег</span>Средняя цена одной тренировки
+                        - 700&#8381</p>
+                    <p class="bottom-item"><span class="bottom-label">Опытный персонал</span>Стаж работы у наших
+                        тренеров от 5 лет</p>
+                </div>
+            </div>
+        </div>
+    </main>
+   <footer class="footer">
+        <div class="container">
+            <div class="footer-wrapper">
+                <div class="footer-first">
+                    <div class="footer-logo"></div>
+                    <nav class="footer-nav">
+                        <a href="#" class="nav-link">Мероприятия</a>
+                        <a href="#" class="nav-link">Расписание</a>
+                        <a href="#" class="nav-link">О компании</a>
+                    </nav>
+                    <a href="mailto:info@freefit.com.ru&body=Не отправляйте письмо?subject=Это тестовый сайт"
+                        class="footer-email">info@freefit.com<span class="email-round"></span></a>
+                </div>
+                <div class="footer-second">
+                    <span>© 2022, Все права защищены</span>
+                    <span>Сделано в рамках курса учебной платформы Frontend Blok</span>
+                </div>
+            </div>
+        </div>
+    </footer> 
 </body>
+
 </html>
